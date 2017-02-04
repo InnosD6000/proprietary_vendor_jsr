@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/jsr/quarrion/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/jsr/quarrion/proprietary/bin/radish:system/bin/radish \
-    vendor/jsr/quarrion/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/jsr/quarrion/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/jsr/quarrion/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/jsr/quarrion/proprietary/bin/vm_bms:system/bin/vm_bms \
