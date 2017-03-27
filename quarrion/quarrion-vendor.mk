@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/jsr/quarrion/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/jsr/quarrion/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
+    vendor/jsr/quarrion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/jsr/quarrion/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/jsr/quarrion/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -100,6 +101,49 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libcalmodule_memsic_d6000.so:system/vendor/lib64/libcalmodule_memsic_d6000.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx135_liveshot.so:system/vendor/lib64/libchromatix_imx135_liveshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_common.so:system/vendor/lib64/libchromatix_imx214_common.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_default_video.so:system/vendor/lib64/libchromatix_imx214_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_hfr_120fps.so:system/vendor/lib64/libchromatix_imx214_hfr_120fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_hfr_60fps.so:system/vendor/lib64/libchromatix_imx214_hfr_60fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_hfr_90fps.so:system/vendor/lib64/libchromatix_imx214_hfr_90fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_liveshot.so:system/vendor/lib64/libchromatix_imx214_liveshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_preview.so:system/vendor/lib64/libchromatix_imx214_preview.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib64/libchromatix_imx214_snapshot_hdr.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_snapshot.so:system/vendor/lib64/libchromatix_imx214_snapshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_video_1080p.so:system/vendor/lib64/libchromatix_imx214_video_1080p.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_imx214_video_hdr.so:system/vendor/lib64/libchromatix_imx214_video_hdr.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov13850_q13v06k_default_video.so:system/vendor/lib64/libchromatix_ov13850_q13v06k_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov16825_common.so:system/vendor/lib64/libchromatix_ov16825_common.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov16825_default_video.so:system/vendor/lib64/libchromatix_ov16825_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov16825_hfr_120.so:system/vendor/lib64/libchromatix_ov16825_hfr_120.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov16825_hfr_60.so:system/vendor/lib64/libchromatix_ov16825_hfr_60.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov16825_preview.so:system/vendor/lib64/libchromatix_ov16825_preview.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov16825_snapshot.so:system/vendor/lib64/libchromatix_ov16825_snapshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_common.so:system/vendor/lib64/libchromatix_ov8858_common.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_default_video.so:system/vendor/lib64/libchromatix_ov8858_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_120fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_60fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_90fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_liveshot.so:system/vendor/lib64/libchromatix_ov8858_liveshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_preview.so:system/vendor/lib64/libchromatix_ov8858_preview.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_common.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_common.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_120fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_60fps.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_60fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_90fps.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_hfr_90fps.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_preview.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_video_nonHD.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_video_nonHD.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_zsl_30.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_zsl_30.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_ov8858_snapshot.so:system/vendor/lib64/libchromatix_ov8858_snapshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_s5k3m2xm_common.so:system/vendor/lib64/libchromatix_s5k3m2xm_common.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib64/libchromatix_s5k3m2xm_default_video.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_s5k3m2xm_liveshot.so:system/vendor/lib64/libchromatix_s5k3m2xm_liveshot.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libchromatix_s5k3m2xm_preview.so:system/vendor/lib64/libchromatix_s5k3m2xm_preview.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -129,6 +173,13 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_imx214.so:system/vendor/lib64/libmmcamera_imx214.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_ov16825.so:system/vendor/lib64/libmmcamera_ov16825.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_ov5648_q5v22e.so:system/vendor/lib64/libmmcamera_ov5648_q5v22e.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_ov7695.so:system/vendor/lib64/libmmcamera_ov7695.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_ov8858_q8v19w_30.so:system/vendor/lib64/libmmcamera_ov8858_q8v19w_30.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_ov8858_q8v19w.so:system/vendor/lib64/libmmcamera_ov8858_q8v19w.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/libmmcamera_ov8858.so:system/vendor/lib64/libmmcamera_ov8858.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
