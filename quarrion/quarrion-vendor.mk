@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/jsr/quarrion/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/jsr/quarrion/proprietary/lib/modules/pronto_wlan.ko:system/lib/modules/pronto_wlan.ko \
+    vendor/jsr/quarrion/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/jsr/quarrion/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/jsr/quarrion/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/jsr/quarrion/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
