@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/jsr/quarrion/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/jsr/quarrion/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/jsr/quarrion/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/jsr/quarrion/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/jsr/quarrion/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/jsr/quarrion/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -67,9 +68,14 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/jsr/quarrion/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/jsr/quarrion/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/jsr/quarrion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/jsr/quarrion/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/jsr/quarrion/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/jsr/quarrion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/jsr/quarrion/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/jsr/quarrion/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/jsr/quarrion/proprietary/lib/modules/pronto_wlan.ko:system/lib/modules/pronto_wlan.ko \
     vendor/jsr/quarrion/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/jsr/quarrion/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/jsr/quarrion/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -160,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
@@ -288,6 +295,8 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
@@ -547,6 +556,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
