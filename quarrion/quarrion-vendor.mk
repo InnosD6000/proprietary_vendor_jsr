@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/jsr/quarrion/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/jsr/quarrion/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/jsr/quarrion/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/jsr/quarrion/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/jsr/quarrion/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/jsr/quarrion/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -71,14 +72,20 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/jsr/quarrion/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
+    vendor/jsr/quarrion/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/jsr/quarrion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/jsr/quarrion/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/jsr/quarrion/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/jsr/quarrion/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/jsr/quarrion/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/jsr/quarrion/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
+    vendor/jsr/quarrion/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/jsr/quarrion/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/jsr/quarrion/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/jsr/quarrion/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/jsr/quarrion/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/jsr/quarrion/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -223,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -238,6 +246,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -678,6 +687,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
