@@ -70,11 +70,13 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/jsr/quarrion/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/jsr/quarrion/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/jsr/quarrion/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/jsr/quarrion/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/jsr/quarrion/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/jsr/quarrion/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/jsr/quarrion/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/jsr/quarrion/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/jsr/quarrion/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/jsr/quarrion/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
