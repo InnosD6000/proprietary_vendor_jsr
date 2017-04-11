@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/jsr/quarrion/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/jsr/quarrion/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/jsr/quarrion/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/jsr/quarrion/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/jsr/quarrion/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/jsr/quarrion/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
