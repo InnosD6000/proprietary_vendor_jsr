@@ -719,7 +719,7 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib64/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so
 
 PRODUCT_PACKAGES += \
