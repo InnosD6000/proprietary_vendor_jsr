@@ -182,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
