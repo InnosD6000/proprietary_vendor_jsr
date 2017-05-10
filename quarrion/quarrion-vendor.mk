@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/jsr/quarrion/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/jsr/quarrion/proprietary/bin/radish:system/bin/radish \
-    vendor/jsr/quarrion/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/jsr/quarrion/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/jsr/quarrion/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/jsr/quarrion/proprietary/bin/vm_bms:system/bin/vm_bms \
@@ -183,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
@@ -689,9 +687,9 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -719,8 +717,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so
     vendor/jsr/quarrion/proprietary/vendor/lib64/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
