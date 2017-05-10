@@ -722,7 +722,8 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libts_detected_face_jni.so:system/vendor/lib/libts_detected_face_jni.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so
+    vendor/jsr/quarrion/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so \
+    vendor/jsr/quarrion/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
