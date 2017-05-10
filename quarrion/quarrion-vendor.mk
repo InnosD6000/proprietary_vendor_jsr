@@ -707,7 +707,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/lib-imsrcscmservice.so:vendor/lib/lib-imsrcscmservice.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
@@ -719,7 +718,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/jsr/quarrion/proprietary/vendor/lib64/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
     vendor/jsr/quarrion/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/jsr/quarrion/proprietary/vendor/lib/libts_detected_face_jni.so:system/vendor/lib/libts_detected_face_jni.so \
@@ -746,5 +744,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     qcnvitems \
+    lib-imss \
     qcrilhook
 endif
