@@ -748,6 +748,5 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook \
-    cktnvtool
+    qcrilhook
 endif
