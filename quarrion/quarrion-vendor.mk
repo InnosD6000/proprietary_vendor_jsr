@@ -746,5 +746,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     lib-imss \
+    BatteryCustomNotify \
     qcrilhook
 endif
