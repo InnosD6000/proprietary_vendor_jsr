@@ -32,11 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/jsr/quarrion/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/jsr/quarrion/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/jsr/quarrion/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/jsr/quarrion/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
-    vendor/jsr/quarrion/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
-    vendor/jsr/quarrion/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
-    vendor/jsr/quarrion/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
-    vendor/jsr/quarrion/proprietary/bin/mm-vidc-omx-test:system/bin/mm-vidc-omx-test \
     vendor/jsr/quarrion/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/jsr/quarrion/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/jsr/quarrion/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
