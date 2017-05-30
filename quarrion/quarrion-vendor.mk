@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     CNEService \
-    com.qualcomm.location \
-    dpmserviceapp
+    com.qualcomm.location
 
 $(call inherit-product, vendor/jsr/quarrion/quarrion-vendor-blobs.mk)
