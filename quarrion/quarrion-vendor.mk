@@ -28,7 +28,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_api_v02 \
+    libwpa_qmi_eap_proxy
 
 PRODUCT_PACKAGES += \
     libtime_genoff
