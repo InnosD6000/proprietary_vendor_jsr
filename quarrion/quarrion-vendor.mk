@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     BatteryCustomNotify \
+    EleButtonSettings \
     TimeService
 
 PRODUCT_PACKAGES += \
