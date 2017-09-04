@@ -35,8 +35,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-PRODUCT_PACKAGES += \
-    CNEService \
-    com.qualcomm.location
-
 $(call inherit-product, vendor/jsr/quarrion/quarrion-vendor-blobs.mk)
